@@ -31,7 +31,6 @@ jobs:
 
       - name: Release
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
             x86_64-unknown-linux-gnu
@@ -39,9 +38,3 @@ jobs:
             x86_64-apple-darwin
             x86_64-pc-windows-msvc
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build Changelog
-        id: build_changelog  
-        uses: mikepenz/release-changelog-builder-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
