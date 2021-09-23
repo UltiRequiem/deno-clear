@@ -28,7 +28,8 @@ function Exec() {
     const helpMessage = `Options:
   --full    Full Clean
   --delay   Delay the Console Cli
-  --help    Print this`;
+  --help    Print this
+For more help check https://github.com/UltiRequiem/deno-clear`;
 
     console.log(helpMessage);
   }
