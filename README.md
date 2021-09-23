@@ -9,13 +9,14 @@ Port of [node-clear](https://github.com/bahamas10/node-clear) with some extras.
 
 > Clear the terminal if possible.
 
-You can get this package by [nest.land](https://nest.land/package/clear) or [deno.land](https://deno.land/x/clear).
+You can get this package by [nest.land](https://nest.land/package/clear) or
+[deno.land](https://deno.land/x/clear).
 
 ## Usage
 
 This package exposes two Functions,
-[clear](https://github.com/UltiRequiem/deno-clear/blob/main/mod.ts#L1) (as default)
-and
+[clear](https://github.com/UltiRequiem/deno-clear/blob/main/mod.ts#L1) (as
+default) and
 [delayedClear](https://github.com/UltiRequiem/deno-clear/blob/main/mod.ts#L7).
 
 ```typescript
@@ -72,7 +73,7 @@ $ declear --delay 3
 declear --delay 4 --full
 ```
 
--- If you need help:
+- If you need help:
 
 ```bash
 declear --help
