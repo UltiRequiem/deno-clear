@@ -5,9 +5,9 @@
 ![Lines Of Code](https://img.shields.io/tokei/lines/github.com/UltiRequiem/fibonacci-deno?color=blue&label=Total%20Lines)
 ![CodeQL](https://github.com/UltiRequiem/fibonacci-deno/workflows/CodeQL/badge.svg)
 
-> Port of [node-clear](https://github.com/bahamas10/node-clear) with some extras
+Port of [node-clear](https://github.com/bahamas10/node-clear) with some extras.
 
-Clear the terminal if possible.
+> Clear the terminal if possible.
 
 You can get this package by [nest.land](https://nest.land/package/clear) or [deno.land](https://deno.land/x/clear).
 
@@ -32,7 +32,7 @@ console.log("I will be erased in %d seconds.", delay);
 delayedClear(delay);
 ```
 
-Check the [cli tool](#cli-tool) for more examples.
+Check the [cli tool](./cli.ts) for more usage examples.
 
 ### CLI Tool
 
