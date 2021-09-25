@@ -47,7 +47,8 @@ deno install -n declear https://deno.land/x/clear/cli.ts
 
 For more info check [this](https://deno.land/manual/tools/script_installer).
 
-You can also get a binary from [releases](https://github.com/UltiRequiem/deno-clear/releases/latest).
+You can also get a binary from
+[releases](https://github.com/UltiRequiem/deno-clear/releases/latest).
 
 #### Usage
 
