@@ -26,11 +26,9 @@ console.log("Some Text...");
 
 clear();
 
-const delay = 5;
+console.log("I will be erased in 5 seconds.");
 
-console.log("I will be erased in %d seconds.", delay);
-
-delayedClear(delay);
+delayedClear(5000);
 ```
 
 Check the [cli tool](./cli.ts) for more usage examples.
@@ -82,7 +80,7 @@ declear --delay 4 --full
 declear --help
 Options:
   --full    Full Clean
-  --delay   Delay the Console Cli
+  --delay   Seconds to delay
   --help    Print this
 For more help check https://github.com/UltiRequiem/deno-clear
 ```

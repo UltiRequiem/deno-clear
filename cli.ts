@@ -9,8 +9,10 @@ function main() {
     return;
   }
 
+  const parsedDelay = delay * 1000;
+
   if (full && delay) {
-    delayedClear(delay, full);
+    delayedClear(parsedDelay, full);
     return;
   }
 
@@ -20,7 +22,7 @@ function main() {
   }
 
   if (delay) {
-    delayedClear(delay, full);
+    delayedClear(parsedDelay, full);
     return;
   }
 
