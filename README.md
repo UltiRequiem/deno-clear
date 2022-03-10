@@ -20,7 +20,7 @@ default) and
 [delayedClear](https://github.com/UltiRequiem/deno-clear/blob/main/mod.ts#L7).
 
 ```typescript
-import clear, { delayedClear } from "https://deno.land/x/clear/mod.ts";
+import { clear, delayedClear } from "https://deno.land/x/clear/mod.ts";
 
 console.log("Some Text...");
 

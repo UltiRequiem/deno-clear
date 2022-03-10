@@ -1,7 +1,7 @@
 import { parse } from "https://deno.land/std/flags/mod.ts";
-import clear, { delayedClear } from "./mod.ts";
+import { clear, delayedClear } from "./mod.ts";
 
-function Exec() {
+function main() {
   const { full, delay, help } = parse(Deno.args);
 
   if (!full && !delay && !help) {
@@ -35,6 +35,4 @@ For more help check https://github.com/UltiRequiem/deno-clear`;
   }
 }
 
-if (import.meta.main) {
-  Exec();
-}
+main();
